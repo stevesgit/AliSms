@@ -6,7 +6,7 @@
  * @author stevewoo <stevewoo@labyun.cn>
  * @copyright COPYRIGHT © 2017,LABYUN.CN ALL RIGHTS RESERVED
  */
-namespace STWOO\SMS\Provider;
+namespace STWOO\AliSms\Provider;
 use Illuminate\Support\ServiceProvider;
 
 class LumenServiceProvider extends ServiceProvider
