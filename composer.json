@@ -1,0 +1,22 @@
+{
+  "name": "stwoo/alisms",
+  "description": "AliSDK for  Lumen",
+  "authors": [
+    {
+      "name": "stevewoo",
+      "email": "wjh2013a@outlook.com"
+    }
+  ],
+  "require": {
+    "php": "^5.5 || ^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "STWOO\\AliSms\\": "src"
+    }
+  },
+  "keywords": [
+    "lumen",
+    "ali-sms sdk"
+  ]
+}
