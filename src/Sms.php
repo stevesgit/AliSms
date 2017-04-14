@@ -26,15 +26,18 @@ class Sms
         $request->setParamString($content);/*模板变量，数字一定要转换为字符串*/
         try {
             $response = $client->getAcsResponse($request);
-            print_r($response);
+            return true;
+//            print_r($response);
         }
         catch (\ClientException  $e) {
-            print_r($e->getErrorCode());
-            print_r($e->getErrorMessage());
+            return false;
+//            print_r($e->getErrorCode());
+//            print_r($e->getErrorMessage());
         }
         catch (\ServerException  $e) {
-            print_r($e->getErrorCode());
-            print_r($e->getErrorMessage());
+            return false;
+//            print_r($e->getErrorCode());
+//            print_r($e->getErrorMessage());
         }
 
     }
